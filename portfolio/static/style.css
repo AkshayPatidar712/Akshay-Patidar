@@ -1,14 +1,89 @@
 
- .para {
-     margin-top: 100px;
-     margin-left: 0px;
+ #mains {
+     width: 100%;
+     height: 100vh;
+     box-sizing: border-box;
+     position: relative;
+     position: relative;
+     background-color: #edf1fd;
+     background-image: url( "Akshay..jpg" );
+     background-repeat: no-repeat;
+     background-position: right bottom;
  }   
-    
 
-body {
-    position: relative;
-    background-color: rgb(202, 201, 201);
-    background-image: url( " Akshay.JPG" );
-    background-repeat: no-repeat;
-    background-position: right top;
+ .n {
+     font-family: calibri;
+     width: 500px;
+     position: absolute;
+     left: 30%;
+     top: 30%;
+     transform: translate(-20%,50%);
+ }
+
+ .n p :nth-child(1),
+ .n .dtail {
+     font-size: 16px;
+ }
+ .n h1{
+     font-family: poppins;
+     font-size: 40px;
+     margin: 0px;
+     letter-spacing: 3px;
+
+ }
+
+ .cv-btn {
+     width: 200px;
+     height: 45px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(77, 76, 76);
+     color: rgb(96, 219, 96);
+     text-decoration: none;
+ }
+
+ .cv-btn :hover{
+     background-color: rgb(226, 86, 21);
+     transition: all ease 0.5s;
+ }
+
+ .social {
+     position: absolute;
+     left: 10px;
+     bottom: 40px;
+     display: flex;
+}
+
+.social a {
+    margin: 6px 12px;
+}
+
+.social i {
+    /* color: rgba(18, 17, 17, 0.4); */
+    font-size: 24px;
+}
+.social a :hover i{
+    color: seagreen;
+    transition: all ease 0.5s;
+}
+ 
+.mail {
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+     align-items: center;
+     background-color: rgb(77, 76, 76);
+    position: absolute;
+     left: 0px;
+     bottom: 0px;
+     
+
+}
+.mail a {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(96, 219, 96);
 }
